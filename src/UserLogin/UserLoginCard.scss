@@ -1,0 +1,29 @@
+$primary-color: #1c8be3;
+$color-light: #dbe9f4;
+$bg-color: #d6e8f1;
+
+.login-card {
+  background-color: $color-light;
+  width: 24rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px -4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+
+  .main {
+    padding: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  .signup-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: right;
+    display: block;
+  }
+}

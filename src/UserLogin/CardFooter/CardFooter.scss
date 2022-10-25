@@ -1,0 +1,25 @@
+$primary-color: #1c8be3;
+
+.footer {
+  background-color: $primary-color;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+  color: #d6e8f1;
+
+  &-title {
+    margin: 1rem;
+    font-size: 1.1rem;
+  }
+
+  &-icon {
+    margin: 1rem;
+
+    img {
+      width: 38px;
+    }
+  }
+}

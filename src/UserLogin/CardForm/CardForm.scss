@@ -1,0 +1,45 @@
+$primary-color: #1c8be3;
+$color-light: #dbe9f4;
+
+.form {
+  input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    padding-left: 1.8rem;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.5s;
+    margin: 15px 0;
+
+    &:focus {
+      border-color: $primary-color;
+    }
+  }
+
+  .form-item {
+    position: relative;
+
+    .form-icon {
+      position: absolute;
+      bottom: 1.4rem;
+    }
+  }
+
+  .submitBtn {
+    width: 100%;
+    background-color: $primary-color;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 1rem 0;
+    border-radius: 5px;
+    color: $color-light;
+    font-size: 1.1rem;
+    box-shadow: 3px 0px 10px 2px rgba(28, 139, 227, 0.3);
+  }
+}
